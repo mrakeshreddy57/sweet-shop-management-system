@@ -1,0 +1,13 @@
+### 1. Add a new Sweet (Rasgulla)
+POST http://localhost:8080/api/sweets
+Content-Type: application/json
+
+{
+  "name": "Rasgulla",
+  "category": "Milk Sweets",
+  "price": 15.00,
+  "quantity": 50
+}
+
+### 2. See all Sweets
+GET http://localhost:8080/api/sweets
